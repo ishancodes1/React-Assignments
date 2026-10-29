@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 const Task22October = () => {
   // Question 1:
-
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
   // return (
   //   <div>
@@ -19,10 +18,7 @@ const Task22October = () => {
   //     )}
   //   </div>
   // );
-
-
   // Question 2
-
   // const [showOrHide, setShowOrHide] = useState(false);
   // return (
   //   <div>
@@ -32,10 +28,7 @@ const Task22October = () => {
   //     <button onClick={() => setShowOrHide(!showOrHide)}>Hide/Show</button>
   //   </div>
   // );
-
-
   // Question 3:
-
   // const [marks, setMarks] = useState(null);
   // const [failOrPass, setFailOrPass] = useState(false);
   // return (
@@ -46,10 +39,7 @@ const Task22October = () => {
   //     <h1>Result: {failOrPass}</h1>
   //   </div>
   // );
-
-
   // Question 4:
-
   // const [loadingStatus, setLoadingStatus] = useState(true);
   // return (
   //   <div>
@@ -57,10 +47,7 @@ const Task22October = () => {
   //     <button onClick={()=> setLoadingStatus(!loadingStatus)}>Toggle Loading</button>
   //   </div>
   // );
-
-
   // Question 5:
-
   // const students = ["ishan", "jasman", "anurag", "adeshpal", "karan"];
   // return (
   //   <ul>
@@ -71,10 +58,7 @@ const Task22October = () => {
   //   }
   //   </ul>
   // )
-
-
   // Question 6:
-
   // const products = [
   //   {
   //     id: "1",
@@ -115,10 +99,7 @@ const Task22October = () => {
   //   }
   //   </ul>
   // )
-
-
   // Question 7:
-
   // const employees = [
   //   {
   //     id: "1",
@@ -156,10 +137,7 @@ const Task22October = () => {
   //     ))}
   //   </ul>
   // );
-
-  
   // Question 8:
-
   // const students = ["ishan", "jasman", "karan", "anurag", "adesh"];
   // // const students = []; // uncomment to check another condition & comment above array
   // return students.length > 0 ? (
@@ -171,8 +149,6 @@ const Task22October = () => {
   // ) : (
   //   <h1>No Students Available</h1>
   // );
-
-
 };
 
 export default Task22October;

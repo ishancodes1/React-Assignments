@@ -66,8 +66,12 @@ const Task26Oct = () => {
             <img src={product.images[0]} style={{ width: 200, height: 200 }} />
             <h1>{product.title}</h1>
             <p>{product.description}</p>
-            <p>Price: {product.price}</p>
-            <p>Discount: {product.discountPercentage}%</p>
+            <p>
+              <em>Price:</em> {product.price}
+            </p>
+            <p>
+              <em>Discount:</em> {product.discountPercentage}%
+            </p>
           </div>
         ))}
       </div>
