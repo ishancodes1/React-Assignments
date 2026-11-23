@@ -3,6 +3,7 @@ import Task22October from "./pages/Task22October";
 import Task26Oct from "./pages/Task26Oct";
 import Task29October from "./pages/Task29October";
 import { UserProvider } from "./context/UserContext29Oct";
+import Task20Nov from "./pages/Task20Nov";
 
 const App = () => {
   return (
@@ -12,10 +13,12 @@ const App = () => {
       {/* <Practice24Oct/> */}
       {/* <Task26Oct/> */}
       {/* <AppRoutes/> */}
-      <UserProvider>
+      {/* <UserProvider>
         <Task29October />
-      </UserProvider>
+      </UserProvider> */}
+      <Task20Nov/>
     </div>
+    
   );
 };
 
